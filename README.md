@@ -366,6 +366,24 @@ This repository contains prompt chains for the following domains:
   "Provide UX/UI design recommendations for the provided {website/app}. Focus on improving usability, accessibility, and aesthetics. Return a list of specific design improvements with examples where necessary."
   ```
 
+* **Conduct Comprehensive UX Audit and Accessibility Assessment**
+
+  ```text
+  "Perform a comprehensive UX audit for the provided {website/application}. Analyze user flows, information architecture, visual hierarchy, and accessibility compliance (WCAG 2.1 AA standards). Identify pain points in the user journey, evaluate color contrast ratios, keyboard navigation, screen reader compatibility, and mobile responsiveness. Provide a detailed report with prioritized recommendations, wireframe suggestions for critical issues, and implementation guidelines. Include specific metrics for measuring improvement and timeline estimates for each recommendation."
+  ```
+
+* **Design Complete Design System with Component Library**
+
+  ```text
+  "Create a comprehensive design system for {application_type} including color palette, typography scale, spacing system, component library, and design tokens. Define atomic design principles with atoms, molecules, organisms, templates, and pages. Include detailed specifications for buttons, forms, navigation elements, cards, modals, and data visualization components. Provide design guidelines for responsive breakpoints, animation principles, and brand consistency rules. Return the design system in Figma format with accompanying CSS/SCSS variables and React/Vue component examples."
+  ```
+
+* **Design Mobile-First Responsive Interface with Progressive Enhancement**
+
+  ```text
+  "Design a mobile-first responsive interface for {application_type} following progressive enhancement principles. Start with core functionality for mobile devices and progressively enhance for tablet and desktop viewports. Create detailed wireframes and high-fidelity mockups for all breakpoints (320px, 768px, 1024px, 1440px+). Include touch-friendly interaction design, gesture navigation patterns, optimized content hierarchy for small screens, and performance considerations. Provide CSS Grid/Flexbox layouts, media queries, and JavaScript enhancement strategies."
+  ```
+
 ---
 
 ### **7. Security & Authentication**
@@ -454,6 +472,24 @@ This repository contains prompt chains for the following domains:
 
   ```text
   "Write unit and integration tests for the provided front-end components using {testing_framework}. Ensure the tests cover all major use cases and edge cases. Return the test code with explanations."
+  ```
+
+* **Build Progressive Web App (PWA) with Advanced Service Worker Implementation**
+
+  ```text
+  "Develop a comprehensive Progressive Web App for {application_type} with advanced service worker functionality. Implement intelligent caching strategies (cache-first, network-first, stale-while-revalidate), offline data synchronization, background sync for failed requests, and push notification handling. Include web app manifest configuration, installability criteria, app shell architecture, and performance optimization techniques. Add IndexedDB for offline data storage, lazy loading for assets, and code splitting for optimal performance. Ensure the PWA scores 90+ on Lighthouse audit across all categories."
+  ```
+
+* **Implement Advanced Frontend Performance Optimization**
+
+  ```text
+  "Optimize the provided web application for maximum performance and Core Web Vitals compliance. Implement advanced techniques including code splitting with dynamic imports, tree shaking, bundle analysis and optimization, image optimization with WebP/AVIF formats, lazy loading with Intersection Observer API, and critical CSS extraction. Add performance monitoring with Real User Monitoring (RUM), implement resource hints (preload, prefetch, preconnect), optimize font loading strategies, and minimize JavaScript execution time. Target metrics: LCP < 2.5s, FID < 100ms, CLS < 0.1, and overall Lighthouse score > 95."
+  ```
+
+* **Build Component-Driven Development with Storybook and Testing**
+
+  ```text
+  "Establish a component-driven development workflow using Storybook for {framework}. Create a comprehensive component library with isolated development environment, interactive documentation, and visual regression testing. Implement design tokens integration, accessibility testing with axe-core, and automated visual testing with Chromatic or Percy. Add comprehensive testing strategy including unit tests with Jest/Vitest, component testing with React Testing Library/Vue Test Utils, and E2E testing with Playwright/Cypress. Include automated testing in CI/CD pipeline with coverage reporting and quality gates."
   ```
 
 ---
